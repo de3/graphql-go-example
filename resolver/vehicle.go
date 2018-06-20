@@ -6,11 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/de3/graphql-go-example/errors"
+	"github.com/de3/graphql-go-example/loader"
+	"github.com/de3/graphql-go-example/swapi"
 	graphql "github.com/graph-gophers/graphql-go"
-
-	"github.com/tonyghita/graphql-go-example/errors"
-	"github.com/tonyghita/graphql-go-example/loader"
-	"github.com/tonyghita/graphql-go-example/swapi"
 )
 
 // The VehicleResolver resolves the vehicle type.

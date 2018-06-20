@@ -3,8 +3,8 @@ package resolver
 import (
 	"context"
 
-	"github.com/tonyghita/graphql-go-example/errors"
-	"github.com/tonyghita/graphql-go-example/swapi"
+	"github.com/de3/graphql-go-example/errors"
+	"github.com/de3/graphql-go-example/swapi"
 )
 
 // The QueryResolver is the entry point for all top-level read operations.

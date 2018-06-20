@@ -7,13 +7,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/de3/graphql-go-example/handler"
+	"github.com/de3/graphql-go-example/loader"
+	"github.com/de3/graphql-go-example/resolver"
+	"github.com/de3/graphql-go-example/schema"
+	"github.com/de3/graphql-go-example/swapi"
 	graphql "github.com/graph-gophers/graphql-go"
-
-	"github.com/tonyghita/graphql-go-example/handler"
-	"github.com/tonyghita/graphql-go-example/loader"
-	"github.com/tonyghita/graphql-go-example/resolver"
-	"github.com/tonyghita/graphql-go-example/schema"
-	"github.com/tonyghita/graphql-go-example/swapi"
 )
 
 func main() {

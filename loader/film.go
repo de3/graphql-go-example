@@ -6,8 +6,8 @@ import (
 
 	"github.com/nicksrandall/dataloader"
 
-	"github.com/tonyghita/graphql-go-example/errors"
-	"github.com/tonyghita/graphql-go-example/swapi"
+	"github.com/de3/graphql-go-example/errors"
+	"github.com/de3/graphql-go-example/swapi"
 )
 
 func LoadFilm(ctx context.Context, url string) (swapi.Film, error) {
